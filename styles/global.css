@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cinza:#403631;
+    --cinza-dark: #261E1D;
+    --vermelho-vivo: #F23030;
+    --vermelho-mid: #BF3030;
+    --vinho: #8C3030;
+    --branco: #f8f8f8;
+
+    --ff: "Love Ya Like A Sister", cursive;
+    --fw-bold: 800;
+    --fs-base: 1.25rem
+}
+
+html{
+    font-family: var(--branco);
+    font-weight: var(--fw-base);
+    font-size: var(--fs-base);
+    line-height: 1.6;
+
+    scroll-behavior: smooth;
+}
+
+body{
+    background: linear-gradient( var(--cinza)0%, var(--cinza-dark) 100%) no-repeat;
+}
+
+a{
+    color: var(--vermelho-vivo);
+    text-decoration: none;
+}
+
+h1, p{
+    color: #f4f4f4;
+}
+
+img{
+    margin-top: 8px;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+}
+

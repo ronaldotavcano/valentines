@@ -1,0 +1,17 @@
+main{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 40% 60%;
+
+    padding: 5rem 5rem;
+    color: var(--branco);
+
+    & .texto{
+        margin-right: 10rem;
+    }
+
+    & .musica{
+        --fs-base: 1.15rem
+    }
+
+}
